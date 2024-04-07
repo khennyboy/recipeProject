@@ -1,14 +1,15 @@
 {
   "homepage": "https://khennyboy.github.io/recipeProject",
+  "source" : "index.html",
   "name": "recipe",
   "version": "1.0.0",
   "description": "Recipe application with custom recipe uploads.",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel ",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "parcel build index.html"
+    "build": "parcel build "
   },
   "author": "",
   "license": "ISC",
