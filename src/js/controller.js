@@ -1,4 +1,4 @@
-import './core-js/stable'
+import 'core-js/stable'
 import {async} from 'regenerator-runtime/runtime'
 import 'regenerator-runtime/runtime'
 import * as model from './model.js'
