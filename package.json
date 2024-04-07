@@ -1,6 +1,6 @@
 {
   "homepage": "https://khennyboy.github.io/recipeProject",
-  "source" : "index.html",
+  "source" : "./index.html",
   "name": "recipe",
   "version": "1.0.0",
   "description": "Recipe application with custom recipe uploads.",
