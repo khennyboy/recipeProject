@@ -6,10 +6,8 @@
   "description": "Recipe application with custom recipe uploads.",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel ",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "parcel build "
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
