@@ -7,7 +7,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start" : "parcel index.html",
+    "build": "parcel build index.html"    
   },
   "author": "",
   "license": "ISC",
