@@ -1,25 +1,21 @@
 {
   "name": "forkifyproject",
   "version": "1.0.0",
-  "description": "Recipe application with custom recipe uploads.",
+  "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel index.html", 
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d dist", 
-    "build": "parcel build index.html", 
-    "build:production": "parcel build index.html --public-url https://khennyboy.github.io/recipeProject/" 
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "",
-  "license": "ISC", 
+  "author": "sheriff baba",
+  "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0", 
-    "gh-pages": "^6.1.1",
-    "parcel": "^2.12.0", 
-    "sass": "^1.72.0" 
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
   },
   "dependencies": {
-    "core-js": "^3.36.1",
-    "fractional": "^1.0.0", 
-    "regenerator-runtime": "^0.14.1" 
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
   }
 }
